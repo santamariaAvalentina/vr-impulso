@@ -29,7 +29,7 @@ const ItemListContainer = ({ greeting }) => {
         setProducts(docs);
       })
       .catch((error) => console.error('Error al obtener productos:', error))
-      .finally(() => setLoading(false));
+      .finally(() => setTimeout(() => setLoading(false), 2000));
 
   }, [categoryId]);
 
