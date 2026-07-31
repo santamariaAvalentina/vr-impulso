@@ -43,7 +43,7 @@ E-commerce de indumentaria deportiva y casual, desarrollado con React. Permite e
 Cloná el repositorio e instalá las dependencias:
 
 ```bash
-git clone <url-del-repositorio>
+git clone <https://github.com/santamariaAvalentina/vr-impulso>
 cd mi-primer-ecommerce
 npm install
 ```
