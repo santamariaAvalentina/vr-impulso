@@ -24,7 +24,7 @@ const ItemDetail = ({ item }) => {
       <div className="row g-0 align-items-center">
         <div className="col-md-6 text-center">
           <img
-            src={`${import.meta.env.BASE_URL}${item.img}`}
+            src={item.img}
             className="img-fluid rounded-start"
             alt={item.name}
             style={{ maxHeight: "400px", objectFit: "contain" }}

@@ -9,7 +9,7 @@ const CartItem = ({ product }) => {
       <div className="row align-items-center">
         <div className="col-md-2 text-center">
           <img
-            src={`${import.meta.env.BASE_URL}${product.img}`}
+            src={product.img}
             alt={product.name}
             className="img-fluid rounded"
             style={{ maxHeight: "80px", objectFit: "cover" }}

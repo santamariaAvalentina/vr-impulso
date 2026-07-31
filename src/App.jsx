@@ -10,7 +10,7 @@ import { CartProvider } from './context/CartContext';
 function App() {
   return (
     <CartProvider>
-      <BrowserRouter basename="/vr-impulso">
+      <BrowserRouter>
         <NavBar />
         
         <Routes>
