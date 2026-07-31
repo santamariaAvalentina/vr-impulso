@@ -24,7 +24,7 @@ const ItemDetail = ({ item }) => {
       <div className="row g-0 align-items-center">
         <div className="col-md-6 text-center">
           <img
-            src={item.img}
+            src={`${import.meta.env.BASE_URL}${item.img}`}
             className="img-fluid rounded-start"
             alt={item.name}
             style={{ maxHeight: "400px", objectFit: "contain" }}
@@ -41,7 +41,7 @@ const ItemDetail = ({ item }) => {
             <p className="text-muted">Stock disponible: {item.stock}</p>
 
             <ItemCount initial={1} stock={item.stock} onAdd={handleOnAdd} />
-            
+
             <Link to="/" className="btn btn-outline-secondary w-100 mt-3">
               ← Volver al catálogo
             </Link>
