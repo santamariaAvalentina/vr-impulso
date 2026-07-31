@@ -34,12 +34,24 @@ const ItemListContainer = ({ greeting }) => {
   }, [categoryId]);
 
   if (loading) {
-    return (
-      <div className="text-center my-5">
-        <h3>Cargando productos...</h3>
+  return (
+    <div className="container my-4">
+      <div className="row">
+        {[1, 2, 3, 4, 5, 6].map((n) => (
+          <div key={n} className="col-md-4 mb-4">
+            <div className="card h-100">
+              <div className="skeleton-img"></div>
+              <div className="card-body">
+                <div className="skeleton-line skeleton-title"></div>
+                <div className="skeleton-line skeleton-text"></div>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
-    );
-  }
+    </div>
+  );
+}
 
   return (
     <div className="container my-4">
