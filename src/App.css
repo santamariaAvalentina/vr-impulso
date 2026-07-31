@@ -1,0 +1,32 @@
+.btn-primary {
+  --bs-btn-bg: #8a7355;
+  --bs-btn-border-color: #8a7355;
+  --bs-btn-hover-bg: #6f5c44;
+  --bs-btn-hover-border-color: #6f5c44;
+  --bs-btn-active-bg: #5c4c39;
+  --bs-btn-active-border-color: #5c4c39;
+}
+:root {
+  --bs-dark: #8a7355;
+  --bs-dark-rgb: 138, 115, 85;
+}
+.logo-navbar {
+  height: 200px;
+  width: 200px;
+  border-radius:100%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.card-img-top {
+  height: 500px;
+  
+  object-position: contain;
+  background-color: #e0d6c2;
+  box-shadow: 2px 4px 8px #8A7355;
+}
+.btn-outline-secondary {
+  --bs-btn-color: #8a7355;
+  --bs-btn-border-color: #8a7355;
+  --bs-btn-hover-bg: #8a7355;
+  --bs-btn-hover-border-color: #8a7355;
+}
